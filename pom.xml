@@ -13,7 +13,7 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <sonar.host.url>http://34.125.24.158:9000/</sonar.host.url>
+    <sonar.host.url>http://34.125.234.180:9000/</sonar.host.url>
     <sonar.login>squ_4303f0dbeaa524962af6746c34d628b0c1cd1c01</sonar.login>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
@@ -32,12 +32,12 @@
       <repository>
           <id>nexus</id>  
           <name>Release Repos</name>
-          <url>http://34.125.60.240:8081/repository/first-release/</url>
+          <url>http://34.16.137.93:8081/repository/first-release/</url>
        </repository>
       <snapshotRepository>
           <id>nexus</id>
           <name>Snapshot Repos</name>
-          <url>http://34.125.60.240:8081/repository/first-snapshot/</url>
+          <url>http://34.16.137.93:8081/repository/first-snapshot/</url>
       </snapshotRepository>
   </distributionManagement>
   <build>
